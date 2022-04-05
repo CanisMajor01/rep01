@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Image gallery</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"  href="https://pngset.com/images/camera-icon-flat-camera-flat-icon-disk-electronics-camera-lens-dvd-transparent-png-1521729.png" type="image/png" sizes="64x64">
+    <base target="_blank">
+</head>
+<body>
+    <header class="header">
+            <h1><i class="fa fa-camera" style="color: #ffa102" aria-hidden="true"></i>Unsplash API</h1>
+            <div class="searchbox">
+                <div class="clear_search_field">
+                    <span class="cross_line cross_line1"></span>
+                    <span class="cross_line cross_line2"></span>
+                </div>
+                <input id="input" type="text" placeholder="Searching for summer?" class="search">
+                <img class="search_button" src="./assets/svg/search_icon.svg">
+            </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+        </div>
+        <div class="switcher">
+            <div class="switcher_item prev_page">&#60 prev.</div>
+            <div class="page_num"></div>
+            <div class="switcher_item next_page">next &#62</div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer_links">
+            <ul>
+                <li class="footer_link">
+                    <img class="copyright" src="./assets/svg/copyright.svg">
+                </li>
+                <li class="footer_link">2022</li>
+                <li class="footer_link"><a href="https://github.com/CanisMajor01">Github</a></li>
+                <li class="footer_link discord_link">
+                    <a href="https://discordapp.com/users/919991216580493322">
+                        <img class="discord_link" src="./assets/svg/discord_logo.svg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <a href="https://rs.school/js-stage0/"> <div class="RSS"></div></a>
+    </footer>
+    <script src="https://use.fontawesome.com/7eb4535695.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

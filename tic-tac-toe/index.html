@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe game</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>Tic Tac Toe game (versus Student1) </header>
+
+    <div class="wrapper">
+        
+        <div class="noticeBoard">
+            <div class="noticeBoard_title">Scoreboard</div>
+            <div class="players">
+                <span>Player</span><span>Student1</span>
+            </div>
+            <div class="count">
+                <span class="player_count"></span>
+                <span class="">:</span>
+                <span class="computer_count"></span>
+                <div class="draw_count">Draws: 0</div>
+            </div>
+            
+        </div>
+
+        <div class="movesAlert">
+
+        </div>
+
+        <div class="board">
+            <!-- <svg class="win_line diagonal1"> -->
+                <!-- <line  x1="15" y1="15" x2="345" y2="345"  -->
+                <!-- stroke="red" stroke-width="10" stroke-linecap="round"> -->
+                <!-- </line> -->
+            <!-- </svg> -->
+            <!-- <svg class="win_line diagonal2"> -->
+                <!-- <line  x1="345" y1="15" x2="15" y2="345"  -->
+                <!-- stroke="red" stroke-width="10" stroke-linecap="round"> -->
+                <!-- </line> -->
+            <!-- </svg> -->
+            <!-- <svg class="win_line row1"> -->
+                <!-- <line  x1="15" y1="60" x2="345" y2="60"  -->
+                <!-- stroke="red" stroke-width="10" stroke-linecap="round"> -->
+                <!-- </line> -->
+            <!-- </svg> -->
+            <!-- <svg class="win_line row2"> -->
+                <!-- <line  x1="15" y1="180" x2="345" y2="180"  -->
+                <!-- stroke="red" stroke-width="10" stroke-linecap="round"> -->
+                <!-- </line> -->
+            <!-- </svg> -->
+            <!-- <svg class="win_line row3"> -->
+                <!-- <line  x1="345" y1="300" x2="15" y2="300"  -->
+                <!-- stroke="red" stroke-width="10" stroke-linecap="round"> -->
+                <!-- </line> -->
+            <!-- </svg> -->
+            <!-- <svg class="win_line column1"> -->
+                <!-- <line  x1="60" y1="15" x2="60" y2="345"  -->
+                <!-- stroke="red" stroke-width="10" stroke-linecap="round"> -->
+                <!-- </line> -->
+            <!-- </svg> -->
+            <!-- <svg class="win_line column2"> -->
+                <!-- <line  x1="180" y1="15" x2="180" y2="345"  -->
+                <!-- stroke="red" stroke-width="10" stroke-linecap="round"> -->
+                <!-- </line> -->
+            <!-- </svg> -->
+            <!-- <svg class="win_line column3"> -->
+                <!-- <line  x1="300" y1="15" x2="300" y2="345"  -->
+                <!-- stroke="red" stroke-width="10" stroke-linecap="round"> -->
+                <!-- </line> -->
+            <!-- </svg> -->
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            
+        </div>
+        <div class="text">
+            После того, как сделаете первый ход - противник сделает свой!
+        </div>
+        <div class="new_game">New game</div>
+    </div>
+   
+    <footer class="footer">
+        <div class="footer_links">
+            <ul>
+                <li class="footer_link">
+                    <img src="./assets/svg/copyright.svg" alt="" class="copyright">
+                </li>
+                <li class="footer_link">2022</li>
+                <li class="footer_link"><a href="https://github.com/CanisMajor01">Github</a></li>
+                <li class="footer_link"><a href="https://discordapp.com/users/919991216580493322">
+                    <img class="discord_link" src="./assets/svg/discord_logo.svg">
+                </a></li>
+            </ul>
+        </div>
+        <a href="https://rs.school/js-stage0/"> <div class="RSS"></div></a>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

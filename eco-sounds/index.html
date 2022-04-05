@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Sounds</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./assets/svg/favicon.ico" type="image/png" sizes="64x64">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            
+                <span class="logo"></span>
+            
+            <div class="menu">
+                <ul class="sounds_list">
+                    <li class="nav_item solovey">Соловей</li>
+                    <li class="nav_item drozd">Дрозд</li>
+                    <li class="nav_item zarynka">Малиновка</li>
+                    <li class="nav_item javoronok">Жаворонок</li>
+                    <li class="nav_item slavka">Славка</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <button class="play_button"></button>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_links">
+            <ul>
+                <li class="footer_link">
+                    <svg  style="width:20px; height:20px">
+                        <use xlink:href="./assets/svg/sprite.svg#(c)"></use>
+                    </svg>
+                </li>
+                <li class="footer_link" style="color: white">2022</li>
+                <li class="footer_link"><a href="https://github.com/CanisMajor01">Github</a></li>
+                <li class="footer_link discord_link">
+                    <a href="https://discordapp.com/users/919991216580493322">
+                        <svg  style="width:30px; height:30px">
+                            <use xlink:href="./assets/svg/sprite.svg#discord_logo"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="volume__control">
+            <div class="volume_icon"></div>
+            <input type="range" name="volume" id="volume" class="player__slider" min="0" max="100" step="1" value="100">
+        </div>
+
+        <a href="https://rs.school/js-stage0/"> <div class="RSS"></div></a>
+
+        
+    </footer>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

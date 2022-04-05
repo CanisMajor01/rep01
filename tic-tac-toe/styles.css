@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+body {
+    display: flex;
+    max-width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+header{
+    max-width: 100%;
+    height: 70px;
+    display: block;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.noticeBoard{
+    width: 250px;
+    height: 200px;
+    border: .5px solid black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 10px  black;
+}
+.noticeBoard_title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+
+}
+
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+}
+.count{
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+.draw_count{
+    display: block;
+    width: 100%;
+}
+
+.board{
+    width: 360px;
+    height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0px;
+    box-shadow: 3px 2px 10px  black;
+
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    border: black .1px solid;
+    
+}
+
+
+.winStroke{
+    border: 3px solid red;
+    filter:blur(0) !important;
+    fill: black;
+    transition: 1s all ease-in;
+
+    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.blur {
+    filter:blur(2px);
+}
+
+.new_game{
+    border: .5px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 3px 2px 10px  black;
+}
+.new_game:hover{
+    box-shadow: 2px 1px 5px  black;
+}
+.new_game:active{
+    box-shadow: none;
+}
+
+
+.footer{
+    max-width: 80%;
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    animation: draw .6s forwards
+}
+.cross {
+    width: 100%;
+    height: 100%;
+}
+
+.firstLine{
+    stroke-dasharray: 125;
+    stroke-dashoffset: 125;
+    animation: draw 0.3s forwards;
+}
+
+.secondLine{
+    stroke-dasharray: 125;
+    stroke-dashoffset: 125;
+    animation: draw 0.3s 0.4s forwards;
+    
+}
+.win_line{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    stroke-dasharray: 330;
+    stroke-dashoffset: 330;
+    animation: draw 0.8s forwards
+}
+
+.diagonal1, .diagonal2 {
+    stroke-dasharray: 470;
+    stroke-dashoffset: 470;
+}
+
+@keyframes draw{
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.footer{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: transparent;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+    position: relative;
+    bottom: 0;
+}
+
+
+
+.footer_link{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #ffa102;
+}
+
+.copyright{
+    transform: translateY(2px);
+}
+
+.RSS{
+    background: url(./assets/svg/rss.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 35px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.RSS:hover{
+    filter:  invert(79%) sepia(57%) saturate(4734%) hue-rotate(357deg) brightness(103%) contrast(106%);
+    transition: 0.1s;
+}
+
+.discord_link{
+    width: 30px;
+    height: 30px;
+    fill: black !important;
+    transition: 0.1s;
+    transform: translateY(4px);
+}
+
+.discord_link:hover{
+    filter: invert(79%) sepia(57%) saturate(4734%) hue-rotate(357deg) brightness(103%) contrast(106%);
+    transition: 0.1s;
+}
+
+svg{
+    fill: black !important;
+}
