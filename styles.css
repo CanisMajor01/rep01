@@ -59,8 +59,14 @@ section{
     max-width: 380px;
     position: sticky;
     top: 50px;
-    height: 850px;
+    height: 94.5vh;
     background-color: #c8c8c8;
+}
+
+.misc{
+    position: relative;
+    bottom: -275px;
+    left: 30px;
 }
 .right_side {
     margin-left: 50px;
