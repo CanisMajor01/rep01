@@ -1,8 +1,7 @@
 #  Alexei Vinidzisiuk  
 #### Junior Front-End Developer  
-***  
-***  
-
+  
+  
 ## *Summary*  
 For the last 9 years I've been working for the benefit of transport organizations of the Brest region, realized myself both in terms of a specialist and in terms of managing a team and a branch. But now I decided to try myself in the IT industry. I'm making my best to learn the basics of web-programming to get a worthy job in IT-sector.
 
