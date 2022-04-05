@@ -14,11 +14,11 @@ English: Intermediate (B1-B2) efset.org
 Russian: native speaker  
 
 ## *Other skills*  
-Photography  
-HTML5  
-CSS 3/SASS  
-Adobe Photoshop  
-JavaScript Basics  
+* Photography  
+* HTML5  
+* CSS 3/SASS  
+* Adobe Photoshop  
+* JavaScript Basics  
 
 ## *My Expirience*  
 ```
@@ -39,5 +39,4 @@ function greatBelorussianRandom () {
 E-mail: alexey.vinidisyuk@gmail.com  
 Location: Brest, BY  
 [GitHub](https://github.com/CanisMajor01)  
-  
 [Discord](https://discordapp.com/users/919991216580493322)  
