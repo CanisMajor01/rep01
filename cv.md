@@ -26,6 +26,8 @@ Russian: native speaker
 [Eco Sounds](https://canismajor01.github.io/rep01/eco-sounds/)  
 [API Image Gallery](https://canismajor01.github.io/rep01/image-gallery/)  
 [Tic Tac Toe](https://canismajor01.github.io/rep01/tic-tac-toe/)  
+  
+## *Code example* 
 ```
 function greatBelorussianRandom () {
     let tempArr = []
