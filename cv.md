@@ -22,6 +22,10 @@ Russian: native speaker
 * JavaScript Basics  
 
 ## *My Expirience*  
+[Portfolio](https://canismajor01.github.io/rep01/Portfolio/)  
+[Eco Sounds](https://canismajor01.github.io/rep01/eco-sounds/)  
+[API Image Gallery](https://canismajor01.github.io/rep01/image-gallery/)  
+[Tic Tac Toe](https://canismajor01.github.io/rep01/tic-tac-toe/)  
 ```
 function greatBelorussianRandom () {
     let tempArr = []
